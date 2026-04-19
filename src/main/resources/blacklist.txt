@@ -1,0 +1,2 @@
+# Blacklist of plugins that conflict with NaayCore
+# Add plugin name followed by reason

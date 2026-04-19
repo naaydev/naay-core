@@ -1,0 +1,40 @@
+# NaayCore Configuration
+
+# Database configuration
+database:
+  type: mysql
+  mysql:
+    host: localhost
+    port: 3306
+    database: naaycore
+    user: root
+    password: ""
+
+# Server configuration
+lobby: Lobby-1
+minigame: ""
+
+# Queue configuration
+queue:
+  enabled: true
+
+# Roles configuration
+roles:
+  admin:
+    name: "Admin"
+    prefix: "&c[Admin] "
+    permission: "naay.core.admin"
+    alwaysvisible: true
+    broadcast: true
+  vip:
+    name: "VIP"
+    prefix: "&6[VIP] "
+    permission: "naay.core.vip"
+    alwaysvisible: false
+    broadcast: true
+  membro:
+    name: "Membro"
+    prefix: "&7"
+    permission: ""
+    alwaysvisible: false
+    broadcast: false
